@@ -1,0 +1,131 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.outer{
+    height: 110%;
+    width: 100%;
+    background-image: url(/public/bg6.webp);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.box{
+    width: 35%;
+    height: 85%;
+    position: relative;
+    margin: 6% auto;
+    background: whitesmoke;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+#submitbtn{
+    width: 240px;
+    margin: 40px auto;
+    position: relative;
+    box-shadow: 0 0 30px 10px #f049071f;
+    border-radius: 20px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.input{
+    top: 80px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.if{
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(255,255,255);
+    outline: none;
+    background: transparent;
+}
+
+.if:hover{
+    transform: scale(1.2);
+    border-bottom: 2px solid rgb(241, 114, 114);
+}
+
+.sb{
+    width: 80%;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to bottom right, rgb(243, 191, 191), rgb(255, 33, 33));
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+}
+
+.sb:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to bottom right, rgb(255, 33, 33), rgb(243, 191, 191));
+    font-weight: bold;
+}
+
+#login{
+    left: 15%;
+}
+
+.text-effect{
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 45px;
+    margin-right: auto;
+    padding-bottom: 20px;
+    color: rgb(238, 147, 147);
+}
+
+.text-effect:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.text-effect-admin{
+    font-weight: 800;
+    font-size: 32px;
+    margin-left: 37px;
+    margin-right: auto;
+    padding-bottom: 20px;
+    color: rgb(235, 88, 88);
+}
+
+.text-effect-admin:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 540px){
+    .outer{
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 33, 33));
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+    }
+
+    .box{
+        width: auto;
+        height: 90%;
+        position: relative;
+        margin: 6% auto;
+        background: whitesmoke;
+        padding: 0;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,99 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.outermain{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(255, 33, 33));
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.outerfrom{
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    margin: 2% auto;
+    background: whitesmoke;
+    padding: 4px;
+    overflow: hidden;
+    border-radius: 15px;
+    left: 250px;
+}
+
+.outerto{
+    width: 350px;
+    height: 300px;
+    position: relative;
+    margin: 2% auto;
+    background: whitesmoke;
+    padding: 4px;
+    overflow: hidden;
+    border-radius: 15px;
+    left: 220px;
+}
+
+.tsubmit{
+    width: 50%;
+    padding: 15px 20px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to bottom right, rgb(243, 191, 191), rgb(255, 33, 33));
+    border: 0;
+    outline: none;
+    border-radius: 20px;
+    left: 44%;
+}
+
+.tsubmit:hover{
+    transform: scale(1.2);
+    background: linear-gradient(to bottom right, rgb(255, 33, 33), rgb(243, 191, 191));
+    font-weight: bold;
+}
+
+.tname, .tacc, .bic, .tbname{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(255,255,255);
+    outline: none;
+    background: transparent;
+    left: 15px;
+}
+
+.tname:hover, .tacc:hover, .bic:hover, .tbname:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid rgb(241, 114, 114);
+}
+
+.fname, .facc, .famt{
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(255,255,255);
+    outline: none;
+    background: transparent;
+    left: 15px;
+}
+
+.fname:hover, .facc:hover, .famt:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid rgb(241, 114, 114);
+}
+
+.form-ele-from-dd{
+    border: 2px solid red;
+    align-items: center;
+}
